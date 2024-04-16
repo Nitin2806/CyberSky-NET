@@ -1,0 +1,254 @@
+﻿body {
+    background-color: #eff0f3
+}
+
+
+.product-form, .login-form, .product-content {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.cart-content {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.cart-item {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 15px;
+    margin-bottom: 20px;
+    color: #fff;
+}
+
+.cart-product {
+    width: 100%;
+    font-weight: bold;
+    height: 25px;
+}
+
+.cart-quantity {
+    width: 33%;
+    height: 25px;
+}
+
+.cart-price {
+    width: 33%;
+    text-align: right;
+    height: 25px;
+}
+
+.checkout-content {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.login-content {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 100%;
+    max-width: 600px;
+    min-width: 420px;
+}
+
+.add-content {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 100%;
+    max-width: 600px;
+    min-width: 420px;
+}
+
+.add-phone {
+    width: 100%;
+    max-width: 600px;
+    min-width: 450px;
+}
+
+.checkout-messages {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 20px;
+}
+
+.product-list, .product-item, .product-quantity, .product-buttons, .login-buttons, .login-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.product-form, .login-form, .product-list, .login-form, .login-list, product-item, .product-quantity, .product-buttons, .login-buttons {
+    width: 100%;
+    padding: 20px;
+}
+
+.product-content, .product-image, .logo-image {
+    padding: 20px;
+}
+
+.product-list, .login-list, .product-quantity {
+    font-weight: bold;
+}
+
+    .login-list span,.product-list span, .product-quantity span {
+        padding: 5px;
+    }
+
+
+
+form input, form select {
+    margin: 0px 10px;
+    padding: 5px;
+    width: auto;
+}
+
+.product-buttons input, .cartbox-buttons input, .cart-buttons input, .login-buttons input {
+    width: 240px;
+    margin: 15px;
+}
+
+
+
+.card {
+    border: solid 1px rgb(118, 118, 118);
+}
+
+.navbar .container {
+    width: auto;
+}
+
+.form-field {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 10px;
+    justify-content: space-between;
+}
+
+    .form-field span {
+        width: 33%;
+        height: 30px;
+        font-weight: bold;
+    }
+
+
+    .form-field input, .form-field select {
+        width: 100%;
+        margin: 0;
+        height: 36px;
+    }
+
+.small-field input {
+    width: auto;
+    height: 15px;
+    margin-right: 5px;
+    position: relative;
+    top: 2px;
+}
+
+.small-field span {
+    width: 100%
+}
+
+.small-items {
+    width: 25%;
+}
+
+.checkout-messages {
+    width: 700px;
+    background-color: #b02a37;
+    color: #fff;
+    font-weight: bold;
+}
+
+    .checkout-messages ul {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+        .checkout-messages ul li {
+            font-weight: 400;
+            width: 50%;
+        }
+
+.long-field-messages {
+    font-size: 14px;
+    color: #b02a37;
+}
+
+    .long-field-messages span {
+        width: 100%;
+        display: block;
+    }
+
+
+.btn-home {
+    width: 200px;
+}
+
+.addphone {
+    margin-top: 30px;
+}
+
+    .addphone .product-quantity {
+        justify-content: space-between;
+    }
+
+
+.product-quantity input, .product-quantity select, .product-list select, .login-list select {
+    margin: 0px 15px;
+    padding: 5px;
+    width: 300px;
+}
+
+
+td, th {
+    padding: 10px;
+}
+
+table {
+    width: 100%;
+}
+
+td table {
+    width: 50px;
+}
+
+[type=button]:not(:disabled) {
+    cursor: pointer;
+    margin: 0px;
+    width: 100px;
+    border-radius: 0px;
+}
+
+a:hover {
+    color: #13653f;
+}
+
+a {
+    color: #6c757d;
+    font-weight: bold;
+}
+
+.home-items, .quantity-items {
+    border: solid 1px rgb(118 118 118 / 0%);
+    background: #ddd0;
+}
+
+.logo-img-top img {
+    width: 100%;
+    margin-top: 100px;
+}
+
+img
+{
+    width:100%;
+}
