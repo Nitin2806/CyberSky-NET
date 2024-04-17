@@ -44,8 +44,10 @@ namespace CyberSky
                                 {
                                     Session["LoggedIn"] = true;
                                     Session["userId"] = reader["userId"];
+                                    Session["userType"] = reader["userType"];
                                     Session["Username"] = reader["username"].ToString();
                                     Session["Email"] = reader["email"].ToString();
+                                    Session["Address1"] = reader["address1"].ToString();
                                 }
                                 reader.Close();
                                 connection.Close();

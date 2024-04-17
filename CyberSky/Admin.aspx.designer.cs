@@ -15,15 +15,6 @@ namespace CyberSky
     {
 
         /// <summary>
-        /// Label_User control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Label Label_User;
-
-        /// <summary>
         /// Label1 control.
         /// </summary>
         /// <remarks>
@@ -33,165 +24,183 @@ namespace CyberSky
         protected global::System.Web.UI.WebControls.Label Label1;
 
         /// <summary>
-        /// DropDownList_Brand control.
+        /// ddlBrands control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.DropDownList DropDownList_Brand;
+        protected global::System.Web.UI.WebControls.DropDownList ddlBrands;
 
         /// <summary>
-        /// phoneView control.
+        /// SqlDataSource1 control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.GridView phoneView;
+        protected global::System.Web.UI.WebControls.SqlDataSource SqlDataSource1;
 
         /// <summary>
-        /// phoneDetailsView control.
+        /// GridView1 control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.DetailsView phoneDetailsView;
+        protected global::System.Web.UI.WebControls.GridView GridView1;
 
         /// <summary>
-        /// insert_phone_name_label control.
+        /// PhoneGridView control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label insert_phone_name_label;
+        protected global::System.Web.UI.WebControls.SqlDataSource PhoneGridView;
 
         /// <summary>
-        /// RequiredFieldValidator_Name control.
+        /// DetailsViewHeader control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.RequiredFieldValidator RequiredFieldValidator_Name;
+        protected global::System.Web.UI.WebControls.Label DetailsViewHeader;
 
         /// <summary>
-        /// insert_phone_name control.
+        /// DetailsView1 control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox insert_phone_name;
+        protected global::System.Web.UI.WebControls.DetailsView DetailsView1;
 
         /// <summary>
-        /// insert_phone_desc_label control.
+        /// DetailsDataSource control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label insert_phone_desc_label;
+        protected global::System.Web.UI.WebControls.SqlDataSource DetailsDataSource;
 
         /// <summary>
-        /// RequiredFieldValidator_Desc control.
+        /// pnlAddProduct control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.RequiredFieldValidator RequiredFieldValidator_Desc;
+        protected global::System.Web.UI.WebControls.Panel pnlAddProduct;
 
         /// <summary>
-        /// insert_phone_desc control.
+        /// lblProductName control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox insert_phone_desc;
+        protected global::System.Web.UI.WebControls.Label lblProductName;
 
         /// <summary>
-        /// insert_phone_price_label control.
+        /// txtProductName control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label insert_phone_price_label;
+        protected global::System.Web.UI.WebControls.TextBox txtProductName;
 
         /// <summary>
-        /// RequiredFieldValidator_Price control.
+        /// lblProductPrice control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.RequiredFieldValidator RequiredFieldValidator_Price;
+        protected global::System.Web.UI.WebControls.Label lblProductPrice;
 
         /// <summary>
-        /// RegularExpressionValidator_Price control.
+        /// txtProductPrice control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.RegularExpressionValidator RegularExpressionValidator_Price;
+        protected global::System.Web.UI.WebControls.TextBox txtProductPrice;
 
         /// <summary>
-        /// insert_phone_price control.
+        /// lblProductBrand control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox insert_phone_price;
+        protected global::System.Web.UI.WebControls.Label lblProductBrand;
 
         /// <summary>
-        /// insert_phone_brand_label control.
+        /// ddlProductBrand control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label insert_phone_brand_label;
+        protected global::System.Web.UI.WebControls.DropDownList ddlProductBrand;
 
         /// <summary>
-        /// RequiredFieldValidator_Brand control.
+        /// lblProductQuantity control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.RequiredFieldValidator RequiredFieldValidator_Brand;
+        protected global::System.Web.UI.WebControls.Label lblProductQuantity;
 
         /// <summary>
-        /// insert_phone_brand control.
+        /// txtProductQuantity control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.DropDownList insert_phone_brand;
+        protected global::System.Web.UI.WebControls.TextBox txtProductQuantity;
 
         /// <summary>
-        /// Button_Insert_Phone control.
+        /// lblProductImage control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button Button_Insert_Phone;
+        protected global::System.Web.UI.WebControls.Label lblProductImage;
 
         /// <summary>
-        /// Insert_button_label control.
+        /// txtProductImage control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label Insert_button_label;
+        protected global::System.Web.UI.WebControls.TextBox txtProductImage;
+
+        /// <summary>
+        /// btnAddProduct control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Button btnAddProduct;
+
+        /// <summary>
+        /// lblProductError control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label lblProductError;
     }
 }

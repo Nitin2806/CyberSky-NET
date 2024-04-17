@@ -30,7 +30,7 @@
         </div>
         <div class="login-buttons">
             <asp:Button ID="Button_Login" class="btn btn-success" runat="server" Text="Login" />
-            <asp:Button ID="Button_Register" class="btn btn-warning" runat="server" Text="Register?" OnClick="Button_Register_Click" />
+            <asp:Button ID="Button_Register" class="btn btn-warning" runat="server" Text="Register" OnClick="Button_Register_Click" />
         </div>
     </div>
 </asp:Content>

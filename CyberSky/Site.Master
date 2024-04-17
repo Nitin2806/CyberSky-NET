@@ -55,6 +55,7 @@
                         <li class="nav-item"><a class="nav-link" runat="server" href="~/Login" id="LoginLink">Login</a></li>
                         <li class="nav-item"><a class="nav-link" runat="server" href="~/Register" id="RegisterLink">Register</a></li>
                         <li class="nav-item"><a class="nav-link" runat="server" href="~/Admin" id="AdminLink">Admin</a></li>
+                        <li class="nav-item"><a class="nav-link" runat="server" href="~/Logout" id="LogoutLink">Logout</a></li>
                     </ul>
                 </div>
             </div>
@@ -68,5 +69,7 @@
     <asp:PlaceHolder runat="server">
         <%: Scripts.Render("~/Scripts/bootstrap.js") %>
     </asp:PlaceHolder>
+   
 </body>
+
 </html>

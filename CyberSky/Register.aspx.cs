@@ -34,7 +34,7 @@ namespace CyberSky
                     {
                         using (SqlConnection connection = new SqlConnection(connectionString))
                         {
-                            string query = "INSERT INTO users (email, password, username, phone, address1, address2, city, province, pincode) VALUES (@Email, @Password, @Username, @Phone, @Address1, @Address2, @City, @Province, @Pincode)";
+                            string query = "INSERT INTO users (email, password, username, phone, address1, address2, city, province, pincode, userType) VALUES (@Email, @Password, @Username, @Phone, @Address1, @Address2, @City, @Province, @Pincode, @userType)";
                             SqlCommand command = new SqlCommand(query, connection);
                             command.Parameters.AddWithValue("@Email", email);
                             command.Parameters.AddWithValue("@Password", password);
@@ -45,6 +45,7 @@ namespace CyberSky
                             command.Parameters.AddWithValue("@City", city);
                             command.Parameters.AddWithValue("@Province", province);
                             command.Parameters.AddWithValue("@Pincode", pincode);
+                            command.Parameters.AddWithValue("@userType", "User");
 
                             connection.Open();
                             command.ExecuteNonQuery();

@@ -1,9 +1,6 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Web;
 using System.Web.UI;
-using System.Web.UI.WebControls;
+
 
 namespace CyberSky
 {
@@ -15,14 +12,28 @@ namespace CyberSky
             {
                 LoginLink.Visible = false;
                 RegisterLink.Visible = false;
+                LogoutLink.Visible = true;
+                if (Session["userType"].ToString() == "Admin" && Session["userType"] != null)
+                {
+                    
+                    AdminLink.Visible = true;
+                }
+                else
+                {
+                    AdminLink.Visible = false;
+                }
+               
 
             }
             else
             {
+                
                 LoginLink.Visible = true;
                 RegisterLink.Visible = true;
                 AdminLink.Visible = false;
+                LogoutLink.Visible= false;
                 CartLink.Visible = false;
+                
 
             }
 
